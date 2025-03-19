@@ -72,18 +72,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    let audio = document.getElementById("audioPlayer");
-
-    // Intenta reproducir el audio automáticamente al cargar la página
-    audio.play().catch(error => {
-        console.log("El navegador bloqueó la reproducción automática:", error);
-    });
-
-    // Asegúrate de que el audio se recargue al terminar de reproducirse
-    audio.addEventListener("ended", function () {
-        audio.load();  // Recarga el archivo de audio
-        audio.play().catch(error => console.log("No se pudo reproducir el audio automáticamente: ", error));
-    });
+const audioPlayer = document.getElementById('audioPlayer');
+    
+audioPlayer.addEventListener('play', function() {
+    audioPlayer.volume = 0.5;  // Establecer volumen al 50%
+    audioPlayer.muted = false;  // Desactivar el mute después de que empiece a reproducirse
 });

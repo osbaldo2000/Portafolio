@@ -57,6 +57,14 @@ h1 {
     color: rgba(0, 0, 0, 0.6);;
 }
 
+.reproductor {
+    color:rgba(253, 246, 246, 0.6);
+}
+
+.audio-player audio {
+    filter: invert(1) hue-rotate(180deg); /* Invierte colores para oscurecer controles */
+}
+
 .tagline {
     font-size: 3rem;
     margin-bottom: 30px;
