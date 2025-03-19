@@ -22,6 +22,7 @@ body {
     line-height: 1.6;
 }
 
+
 header {
     background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
     color: white;
