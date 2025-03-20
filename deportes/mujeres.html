@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Sports Woman - Productos Deportivos para Mujeres</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./mujeres.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="images/Logo PS.png" alt="Logo" class="small-logo">
+                Pocket Sports <span>Woman</span></div>
+            <button class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="niño.html">Productos para Niño</a></li>
+                    <li><a href="caballero.html">Productos para Hombres</a></li>
+                    <li><a href="mujeres.html">Productos para Mujeres</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="about-us.html">Acerca de Nosotros</a></li>
+                    <li><a href="FAQ.html">Preguntas y Respuestas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de cabecera de productos -->
+    <section class="products-header">
+        <div class="container">
+            <h2 class="section-title animate-fadeIn">Productos Deportivos para Mujer</h2>
+            <p class="section-description animate-fadeIn">Descubre nuestra amplia selección de productos deportivos diseñados específicamente para Mujer. Equipamiento de calidad, seguro para aquellas mujeres que gustan de vivir al maximo.</p>
+
+    <!-- Cuadrícula de productos -->
+    <section class="products-grid-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <img src="./images/leggis.png" alt="Leggings Deportivos">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Leggings Deportivos</h3>
+                        <p class="product-description">Leggings deportivos para mujer, ideales para entrenamientos intensos.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$300</span>
+                                <span class="price">$200</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 18-25 años</div>
+                        <button onclick="agregarCarrito('Leggins Deportivos Mujer', 200)"class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <img src="./images/sujetador.png" alt="Sujetador Deportivo">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Sujetador Deportivo</h3>
+                        <p class="product-description">Sujetador deportivo, obtén el soporte que necesitas con este sujetador deportivo de alto impacto.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$600</span>
+                                <span class="price">$510</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 18-25 años</div>
+                        <button onclick="agregarCarrito('Sujetador Deportivo', 510)"class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <img src="./images/tennisNiña.png" alt="Tenis Running Mujer">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Running</div>
+                        <h3 class="product-title">Tenis Running Mujer</h3>
+                        <p class="product-description">Estilo con estos tenis deportivos diseñados para ofrecerte máxima amortiguación y estabilidad.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$600</span>
+                                <span class="price">$510</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 18-25 años</div>
+                        <button onclick="agregarCarrito('Tenis Running Mujer', 510)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/chamarraMujer.png" alt="Chaqueta Deportiva Impermeable">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Chaqueta Deportiva Impermeable</h3>
+                        <p class="product-description"> Protege tu cuerpo del viento y la lluvia con esta chaqueta deportiva impermeable y ligera.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$800</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 18-25 años</div>
+                        <button onclick="agregarCarrito('Chaqueta Deportiva Impermeable', 800)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 5 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="/images/relojDigitalMujer.png" alt="Reloj Deportivo Inteligente">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Tegnologia</div>
+                        <h3 class="product-title">Reloj Deportivo Inteligente</h3>
+                        <p class="product-description">Lleva tu rendimiento al siguiente nivel con este reloj inteligente diseñado para mujeres activas.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$500</span>
+                                <span class="price">$400</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 15-25 años</div>
+                        <button onclick="agregarCarrito('Reloj Deportivo Inteligente', 400)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 6 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/guantesantideslizantes.png" alt="Guantes Deportivos Antideslizantes">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Guantes Antideslizantes</h3>
+                        <p class="product-description">Mejora tu agarre y protege tus manos con estos guantes deportivos antideslizantes.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$350</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 18-25 años</div>
+                        <button onclick="agregarCarrito('Guantes Antideslizantes Mujer', 350)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 7 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Oferta</div>
+                    <div class="product-image">
+                        <img src="./images/mochilaMujer.png" alt="Mochila Deportiva Multifuncional">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Mochila Multifuncional</h3>
+                        <p class="product-description">Organiza tu equipo deportivo con esta mochila resistente y liviana.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="original-price">$1000</span>
+                                <span class="price">$600</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 15-25 años</div>
+                        <button onclick="agregarCarrito('Mochila Multifuncional Mujer', 600)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 8 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-image">
+                        <img src="./images/bandaselasticas.png" alt="Bandas de Resistencia">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Bandas de Resistencia</h3>
+                        <p class="product-description">Potencia tu entrenamiento con estas bandas de resistencia de látex natural de alta calidad.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$300</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 15-25 años</div>
+                        <button onclick="agregarCarrito('Gafas Niño', 300)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 9 -->
+                <div class="product-card animate-fadeIn">
+                    <div class="product-badge">Nuevo</div>
+                    <div class="product-image">
+                        <img src="./images/Botella.png" alt="Colchoneta de gimnasia para niños">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Gym</div>
+                        <h3 class="product-title">Botella de Acero Inoxidable</h3>
+                        <p class="product-description">Mantente hidratada durante todo el día con esta botella deportiva de acero inoxidable de doble pared.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$400</span>
+                            </div>
+                        </div>
+                        <div class="age-range">Edad recomendada: 4-12 años</div>
+                        <button onclick="agregarCarrito('Gafas Niño', 400)" class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de información adicional -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title animate-fadeIn">¿Por qué elegir Pocket Sports Kids?</h2>
+            
+            <div class="info-grid">
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🛡️</div>
+                    <h3 class="info-title">Seguridad Garantizada</h3>
+                    <p class="info-text">Todos nuestros productos cumplen con los estándares internacionales de seguridad para niños. Materiales no tóxicos y diseños que previenen lesiones.</p>
+                </div>
+                
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">👊</div>
+                    <h3 class="info-title">Diseños Seguros</h3>
+                    <p class="info-text">Colores Univos y diseños atractivos que motivan a las mujeres del mañana</p>
+                </div>
+                
+                <div class="info-card animate-fadeIn">
+                    <div class="info-icon">🌱</div>
+                    <h3 class="info-title">Materiales Sostenibles</h3>
+                    <p class="info-text">Comprometidos con el futuro de los niños, utilizamos materiales reciclados y procesos de fabricación respetuosos con el medio ambiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">Pocket Sports</div>
+                    <p class="footer-about">Somos una tienda deportiva innovadora comprometida con la tecnología, el medio ambiente y la satisfacción de nuestros clientes.</p>
+                    <div class="social-links">
+                        <a href="https://www.whatsapp.com/" id="whatsapp1-button" target="_blank" class="fab fa-whatsapp"></a>
+                        <a href="https://www.instagram.com/" id="instagram1-button" target="_blank" class="fab fa-instagram"></a>
+                        <a href="https://www.facebook.com" id="facebook1-button" target="_blank" class="fab fa-facebook"></a>
+                        <a href="https://www.youtube.com/" id="youtube1-button" target="_blank" class="fab fa-youtube"></a>
+                        <a href="https://x.com/" id="twitter1-button" target="_blank" class="fab fa-twitter"></a>
+                    <h4> Visita Nuetras redes</h4>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Quiénes Somos</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Ofertas Especiales</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Soporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+    </footer>
+    <script src="./carrito.js"></script>
+</body>
+</html>
