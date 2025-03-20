@@ -5,7 +5,7 @@
     --primary: #0069d9;
     --secondary: #6c757d;
     --dark: #343a40;
-    --light: #f8f9fa;
+    --light: ffffff;
     --success: #0069d9;
 }
 
@@ -71,6 +71,7 @@ li{
 
 label{
     color: rgba(0, 0, 0, 0.7);
+    font-size: 1.5rem;
 }
 
 h3 {
@@ -330,7 +331,7 @@ h2::after {
 .form-group textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ffffff;
+    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -360,7 +361,6 @@ button[type="submit"]:hover {
 
 footer {
     background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
-    color: #ffffff;
     text-align: center;
     padding: 30px 0;
 }
@@ -370,7 +370,7 @@ footer {
 }
 
 .footer-nav a {
-    color: #ffffff;
+    color:rgba(253, 246, 246, 0.7);
     margin: 0 15px;
     text-decoration: none;
 }
@@ -435,7 +435,7 @@ h3{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
     max-width: 600px;
     height: 450px;
@@ -451,18 +451,28 @@ h3{
     width: 80vw;
     max-width: 500px;
     height: 40px;
+    font-size: 1.5rem;
 }
 
 #client-role {
     width: 80vw;
     max-width: 500px;
     height: 40px;
+    font-size: 1.5rem;
 }
 
 #testimonial-text {
     width: 80vw;
     max-width: 500px;
     height: 100px;
+    font-size: 1.5rem;
+}
+
+#client-name, 
+#client-role, 
+#testimonial-text {
+    border: 1px solid #ccc; /* Borde visible */
+    border-radius: 5px;
 }
 
 .client-info {
