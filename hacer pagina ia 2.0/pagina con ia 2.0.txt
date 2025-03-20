@@ -1,0 +1,33 @@
+pedir pagina web con ia 2.0
+
+"Página de Noticias con IA" 
+Descripción:
+Usarán IA para generar contenido de noticias y crear una página con estructura HTML y estilos CSS.
+Pasos:
+Pídele a la IA que te dé una noticia ficticia o basada en hechos reales.
+Genera el código HTML con la estructura de la noticia (título, subtítulo, imagen, texto).
+Estiliza con CSS usando clases y selectores avanzados.
+Extras:
+Usar una cuadrícula (grid) o flexbox para organizar las noticias.
+Hacer que el diseño sea responsive. 
+Evaluación
+Creatividad: ¿Personalizaron el diseño más allá del código generado por la IA?
+Uso correcto de HTML y CSS: ¿Aplicaron bien las estructuras y selectores?
+Interacción con la IA: ¿Pudieron modificar y mejorar el código generado?
+Nota
+Cuando utilices una IA para generar código, no te limites a copiar y pegar. Es fundamental que:
+Revises y analices el código para entender cómo funciona.
+Identifiques partes desconocidas y trates de comprenderlas.
+Si algo no está claro, pídele a la IA que te explique el código paso a paso.
+Así aprenderás más y evitarás errores inesperados en tu proyecto.
+
+
+
+
+¿me puedes genera un pagina con estructura html y con estilos css?
+
+puedes ayudarme a que esta pagina sea de noticias
+
+¿me puedes ayudar a poner las noticias en una cuadricula grid o frexbox para organizar
+las noticias y tenga un diseño responsive con imagenes o pon links de uso libre?
+¿puedes ayudarme a que sea para un publico en general y que la barra navegadora sirva?
