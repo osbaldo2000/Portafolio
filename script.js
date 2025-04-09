@@ -4,18 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Testimonios predeterminados
     const defaultTestimonials = [
-        {
-            text: "Trabajar con Osbaldo fue una experiencia excepcional. Entendió perfectamente nuestras necesidades y entregó un sistema que superó nuestras expectativas. Su conocimiento técnico y profesionalidad son de primer nivel.",
-            name: "Carlos Rodríguez",
-            role: "Director de Tecnología, Empresa XYZ",
-            image: "./formal-2.webp"
-        },
-        {
-            text: "La capacidad técnica y la atención al detalle de Osbaldo nos permitieron implementar un sistema de gestión que transformó nuestra operativa diaria. El proyecto se entregó a tiempo y dentro del presupuesto.",
-            name: "Laura Martínez",
-            role: "CEO, Startup Innovadora",
-            image: "./formal-4.webp"
-        }
     ];
 
     // Cargar testimonios (incluyendo los predeterminados)
