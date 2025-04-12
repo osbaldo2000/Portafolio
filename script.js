@@ -59,10 +59,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-
-const audioPlayer = document.getElementById('audioPlayer');
-    
-audioPlayer.addEventListener('play', function() {
-    audioPlayer.volume = 0.5;  // Establecer volumen al 50%
-    audioPlayer.muted = false;  // Desactivar el mute después de que empiece a reproducirse
-});
